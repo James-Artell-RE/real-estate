@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+}
+
+.nav, ul, li{
+    display: flex;
+     flex-direction: row;
+     color: white;
+     margin: 10px;
+     margin-bottom: 20px;
+     
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+  
+  }
+
+  a:visited{
+   text-decoration: none;
+  }
+
+ 
+  .flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+     align-content: normal;
+     margin: 100px;
+    
+    
+   
+   
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0px;
+    background-color: lightblue;
+    padding: 20px;
+  }
+
+ li{
+    color: black;
+ }
+  .flex-items{
+    
+    padding: 1px;
+    margin: 1px;
+
+    
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+   
+    
+    
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(4) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(5) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(6) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 388px;
+    height: 460px;
+    margin: 7px;
+    border-radius: 25px 25px 25px 25px;
+    
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .words {
+    padding: 2px 16px;
+   
+  }
+
+  h4{
+    font-size: x-large;
+    margin: 5px;
+  }
+
+  .small-print{
+    font-size: x-small;
+    padding: 10px;
+  }
+
+  .on-the-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    
+  }
+
+ .lower-card{
+    text-indent: 5px;
+ }
+
+ .icard{
+    border-radius: 25px 25px 0px 0px;
+ }
+
+.oct{
+  text-decoration: none;
+}
+
+
+ 
+
